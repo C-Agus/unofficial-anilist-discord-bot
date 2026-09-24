@@ -6,9 +6,7 @@
 
 A Discord bot that links Discord accounts to [AniList](https://anilist.co) profiles and posts new anime/manga activity (episode progress, completions, and status posts) as rich embeds, automatically on a schedule or on demand. It is a full rewrite of my original single-file, synchronous bot into a modular async application with encrypted storage, a rate-limited API client, and an offline test suite.
 
-<!-- Uncomment after adding a screenshot to docs/demo.png
 ![Activity embed posted by the bot in Discord](docs/demo.png)
--->
 
 > Not affiliated with AniList or Discord.
 
@@ -102,6 +100,11 @@ Every command is available as a slash command (`/name`) and a prefix command (`!
 | `!whoami` (alias `!mystatus`) | Show which AniList account you've linked. |
 | `!checkactivity` (alias `!activity`) | Show new activity since the last check, or `No new activity since last checked.` |
 | `!help` | Interactive, categorized help with a dropdown menu. |
+
+<p>
+  <img src="docs/help.png" alt="Interactive help menu with category dropdown" width="55%" align="top">
+  <img src="docs/unlink.png" alt="Confirmation buttons before unlinking an account" width="40%" align="top">
+</p>
 
 ## Project structure
 
