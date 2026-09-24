@@ -1,0 +1,39 @@
+# Secrets — never commit these
+.env
+.envrc
+
+# SQLite database (and WAL/journal sidecar files)
+*.db
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+logs/
+*.log
+
+# Editors & OS
+.vscode/
+.idea/
+.vs/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
